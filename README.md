@@ -59,6 +59,9 @@ This dataset contains transactional data for a UK-based and registered non-store
 - There are a significant number of **missing `CustomerID` values**.
 - Duplicate rows were found and removed.
 - **Quantity and InvoiceDate** trends suggest business cycles and possible seasonality.
+![image](https://github.com/user-attachments/assets/70ecb9c3-bc1d-4a8a-9738-ec413fb0bab7)
+![image](https://github.com/user-attachments/assets/5e40b0a4-74ce-4bc5-91f7-f5b749e9e2c2)
+
 
 ---
 
