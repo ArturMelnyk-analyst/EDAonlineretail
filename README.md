@@ -5,6 +5,18 @@ An end-to-end exploratory data analysis (EDA)on the [UCI Online Retail II datase
 
 📧 Author: [Artur Melnyk](mailto:melnyk.analyst@gmail.com)
 
+🎯 Objective
+To explore, clean, and visualize customer transaction data to answer:
+
+What are the revenue trends over time?
+
+Who are the best-performing products and customers?
+
+How does return behavior vary by customer and product?
+
+Which countries contribute most to revenue?
+
+
 🔗 **Interactive Dashboard**:  
 [📊 Customers & Products Return Dashboard (Tableau Public)](https://public.tableau.com/app/profile/artur.melnyk/viz/EDAvisualization/CustomersProductsReturnDashboard)
 
@@ -27,18 +39,6 @@ An end-to-end exploratory data analysis (EDA)on the [UCI Online Retail II datase
 | `EDA visualization.twbx`                | Packaged Tableau dashboard file              |
 | `Online_Retail_EDA_Technical_Documentation.pdf` | Full technical documentation (includes visuals, challenges, insights) |
 
----
-
-
----
-
-## 🛠️ Tools & Libraries Used
-
-- Python 3.x
-- Jupyter Notebook
-- Pandas
-- Matplotlib
-- Seaborn
 
 ---
 
@@ -52,19 +52,23 @@ This dataset contains transactional data for a UK-based and registered non-store
 
 ---
 
-## 📈 Key Insights (from EDA)
-
-- The **UK** is by far the largest contributor to sales volume.
-- A small number of products make up the **majority of transactions**.
-- There are a significant number of **missing `CustomerID` values**.
-- Duplicate rows were found and removed.
-- **Quantity and InvoiceDate** trends suggest business cycles and possible seasonality.
-![image](https://github.com/user-attachments/assets/70ecb9c3-bc1d-4a8a-9738-ec413fb0bab7)
+🔍 Key Findings (Top 3 Insights)
+🇬🇧 UK Dominates Revenue
+The UK alone generated over €14.7M — the bulk of all revenue. Targeting UK-based customers can enhance retention and profits.
 ![image](https://github.com/user-attachments/assets/5e40b0a4-74ce-4bc5-91f7-f5b749e9e2c2)
+
+🎯 Top Customers Drive Revenue
+A small customer segment (e.g., Customer ID 18102) accounts for significant revenue, justifying loyalty programs and VIP strategies.
+![image](https://github.com/user-attachments/assets/435773c7-52ee-4552-bc5f-9c39cad5445b)
+
+📦 Return Behavior is Complex
+High return volume ≠ high return rate. Segmentation is crucial to treat loyal vs. risky customers differently.
+
+![image](https://github.com/user-attachments/assets/1e706bec-facf-48ee-9d28-aea14e0089cb)
+![image](https://github.com/user-attachments/assets/2dd2a881-9bb9-40e9-9c5c-be3cc53577a0)
 
 
 ---
-
 ## 📌 How to Run
 
 1. Clone the repository:
